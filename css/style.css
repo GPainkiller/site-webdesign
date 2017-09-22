@@ -1,0 +1,157 @@
+/* Fonts connection */
+@font-face{
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: MontserratSemiBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+/*Global (tag styles)*/
+body{
+    font-family: sans-serif;
+    float: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*Content area*/
+.content-top{
+    margin: 0 auto;
+    background: url(../res/img/head_pic.jpg) no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.nav{
+    position: relative;
+    overflow: hidden;
+    padding: 75px 0 75px 0;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style:none;
+    left:50%;
+    float:left;
+    font:14px Arial, Helvetica, sans-serif;
+    height:40px;
+    
+}
+
+.nav ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    position:relative;
+    left:-50%;
+    float:left;
+    margin:0 10px;
+    height:40px;
+    font-family: MontserratBold;
+}
+.nav ul li a {
+    color: #fff;
+    display:block;
+    padding:0 15px;
+    line-height: 40px;
+}
+.content-col-1{
+    float: left;
+    width: 25%;
+    background: url(../res/img/r-1.jpg) no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+}
+.content-col-2{
+    float: left;
+    width: 25%;
+    background: url(../res/img/r-2.jpg) no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+}
+.content-col-3{
+    float: left;
+    width: 25%;
+    background: url(../res/img/r-3.jpg) no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+}
+.content-col-4{
+    float: left;
+    width: 25%;
+    background: url(../res/img/r-4.jpg) no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+}
+/*Footer Styles*/
+.footer{
+    float: left;
+    width: 25%;
+    /*margin: 75px 75px 0 75px;*/
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.footer h2{
+    font-family: MontserratSemiBold;
+    text-transform: uppercase;
+    font-size: 0.4cm;
+    font-weight: bold;
+    text-align: left;
+    font-style: normal;
+}
+.footer ul{
+    padding-left: 0;
+    color: rgb( 86, 86, 86 );
+}
+.footer ul li{
+    list-style: none;
+    font-size: 0.4cm;
+}
+.footer ul li a{
+    color: rgb( 86, 86, 86 );
+    line-height: 1.856;
+}
+
+.copyright{
+    background: black;
+    height: 50px;
+    float: left;
+    width: 100%;
+}
+.copyright p{
+    color: rgb( 86, 86, 86 );
+    text-align: center;
+}
+.copyright a{
+    color: rgb( 86, 86, 86 );
+}
+
+/* 
+.Detroit_London_Florida_Las_Vegas_California {
+  font-size: 0.494cm;
+  font-family: "Georgia";
+  color: rgb( 86, 86, 86 );
+  font-style: italic;
+  text-align: left;
+  position: absolute;
+  left: 34.2194444444444cm;
+  top: 66.8161111111111cm;
+  width: 2.293cm;
+  height: 4.163cm;
+  z-index: 49;
+}fdfc
+*/
