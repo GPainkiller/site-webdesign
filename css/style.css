@@ -52,6 +52,11 @@ nav ul li a {
     padding:0 15px;
     line-height: 40px;
 }
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+}
 
 /*Content area*/
 .content-top{
@@ -60,8 +65,6 @@ nav ul li a {
     background-size: cover;
     height: 75vh;
     text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 .content-col-1{
     float: left;
