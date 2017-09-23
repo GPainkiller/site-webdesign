@@ -20,7 +20,7 @@ nav{
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 50px 0 75px 0;
+    padding: 5vh 0 75px 0;
 }
 
 nav ul{
@@ -31,9 +31,8 @@ nav ul{
     list-style:none;
     left:50%;
     float:left;
-    font:14px Arial, Helvetica, sans-serif;
-    height:40px;
-    
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 10vh; 
 }
 
 nav ul li{
@@ -64,7 +63,7 @@ button {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 50px 0 0 0;
+    margin: 5vh 0 0 0;
     padding: .5em 3em;
     outline: none;
     border-width: 2px 0;
@@ -131,6 +130,16 @@ button {
     text-align: center;
     color: white;
     padding: 15vh 0 0 0;
+}
+.content-col-1 p,
+.content-col-2 p,
+.content-col-3 p,
+.content-col-4 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    color: white;
 }
 /*Footer Styles*/
 .footer{
