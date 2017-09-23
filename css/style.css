@@ -20,7 +20,7 @@ nav{
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 5vh 0 75px 0;
+    padding: 5vh 0 3vh 0;
 }
 
 nav ul{
@@ -32,9 +32,8 @@ nav ul{
     left:50%;
     float:left;
     font: 14px Arial, Helvetica, sans-serif;
-    height: 10vh; 
+    height: 7vh; 
 }
-
 nav ul li{
     text-transform: uppercase;
     font-weight: bold;
@@ -48,7 +47,6 @@ nav ul li{
 nav ul li a {
     color: #fff;
     display:block;
-    padding:0 15px;
     line-height: 40px;
 }
 h1 {
@@ -56,7 +54,13 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 75px;
     font-weight: normal;
-    margin: 0 0 0 0;
+    margin: 5vh 0 0 0;
+}
+hr {
+    border: none;
+    background-color: white;
+    height: 1px;
+    width: 90vw;
 }
 button {
     display: inline-block;
@@ -82,6 +86,7 @@ button {
     background: url(../res/img/head_pic.jpg) no-repeat;
     background-size: cover;
     height: 75vh;
+    width: 100%;
     text-align: center;
     color: white;
 }
@@ -185,6 +190,7 @@ button {
     color: rgb( 86, 86, 86 );
     text-align: center;
     font-size: 10px;
+    font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .copyright a{
