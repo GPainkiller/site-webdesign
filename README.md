@@ -1,4 +1,4 @@
 # site-webdesign
 # https://gpainkiller.github.io/site-webdesign/index.html
 
-# Some Frontend learning activities!!
+# Development started 2017.09.21
