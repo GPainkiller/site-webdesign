@@ -64,13 +64,13 @@ button {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: .5em 2em;
+    margin: 50px 0 0 0;
+    padding: .5em 3em;
     outline: none;
     border-width: 2px 0;
-    border-style: solid none;
-    border-color: #FDBE33 #000 #D77206;
+    border-style: none;
     border-radius: 25px;
-    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    background: #da7074;
     transition: 0.2s;
     font-family: MontserratSemiBold;
   } 
