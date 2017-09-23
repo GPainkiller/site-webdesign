@@ -20,7 +20,7 @@ nav{
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 75px 0 75px 0;
+    padding: 50px 0 75px 0;
 }
 
 nav ul{
@@ -56,7 +56,26 @@ h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 75px;
+    font-weight: normal;
+    margin: 0 0 0 0;
 }
+button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 25px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    font-family: MontserratSemiBold;
+  } 
+  button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+  button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 
 /*Content area*/
 .content-top{
@@ -65,6 +84,7 @@ h1 {
     background-size: cover;
     height: 75vh;
     text-align: center;
+    color: white;
 }
 .content-col-1{
     float: left;
@@ -114,7 +134,7 @@ h1 {
 .footer h2{
     font-family: MontserratSemiBold;
     text-transform: uppercase;
-    font-size: 0.4cm;
+    font-size: 0.3cm;
     font-weight: bold;
     text-align: left;
     font-style: normal;
@@ -125,13 +145,12 @@ h1 {
 }
 .footer ul li{
     list-style: none;
-    font-size: 0.4cm;
+    font-size: 0.3cm;
 }
 .footer ul li a{
     color: rgb( 86, 86, 86 );
     line-height: 1.856;
 }
-
 .copyright{
     background: black;
     height: 50px;
