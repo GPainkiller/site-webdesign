@@ -22,15 +22,24 @@ nav{
     overflow: hidden;
     padding: 5vh 0 3vh 0;
 }
-
+.logo{
+    display: block;
+    float: left;
+    margin: 2vh 0 0 4vw;
+}
+.menu{
+    display: block;
+    float: right;
+    margin: 2vh 4vw 0 0;
+}
 nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
     list-style:none;
-    left:50%;
-    float:left;
+    left: 50%;
+    float: left;
     font: 14px Arial, Helvetica, sans-serif;
     height: 7vh; 
 }
