@@ -86,9 +86,14 @@ button {
     transition: 0.2s;
     font-family: MontserratSemiBold;
   } 
-  button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
-  button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+  button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+  button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; 
+}
 
+.play{
+    margin: 4vh 0 0 0;
+}
 /*Content area*/
 .content-top{
     margin: 0 auto;
